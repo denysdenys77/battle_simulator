@@ -18,3 +18,7 @@ class GameABC(ABC):
     @abstractmethod
     def play(self) -> Type[ArmyABC]:
         pass
+
+    @abstractmethod
+    def get_armies(self):
+        pass
